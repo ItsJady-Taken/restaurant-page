@@ -1,5 +1,9 @@
 
 html, body {
-    background-color: white;
-    color: red;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(211, 211, 223);
+    color: rgb(41, 37, 37);
 }
+
+
