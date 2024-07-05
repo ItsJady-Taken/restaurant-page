@@ -8,7 +8,7 @@ module.exports = {
     },
     entry: './src/index.js',
     output: {
-        filename: 'main.js',
+        filename: 'bundle.js',
         path: path.resolve(__dirname, './dist'),
         clean: true,
     },
@@ -27,7 +27,7 @@ module.exports = {
         },
         {
           test: /\.html$/i,
-          loader: 'html-loader',
+          use: 'html-loader',
         },
         {
           test: /\.(svg|png|jpg|jpeg|gif)$/i,

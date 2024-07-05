@@ -1,11 +1,7 @@
-import './styles.scss';
-import homePage from './app/home';
+import './styles/styles.scss';
+import './styles/home.scss';
+import { homePage } from './app/home';
 
-function loadHomePage() {
-    homePage();
-    console.log("it's working")
-}
+const content = document.querySelector('#content-container');
 
-window.loadHomePage = loadHomePage;
-
-loadHomePage();
+content.appendChild(homePage());
