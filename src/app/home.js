@@ -58,6 +58,10 @@ const homePage = () => {
                 </div>
             </div>
        </div>
+
+       <div class="footer">
+            <p><span>Contacts:</span> <span>032-143-210</span> <span>123 Banana Street</span></p>
+       </div>
         `;
 
     return home_page;

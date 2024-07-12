@@ -6,8 +6,17 @@ html, body {
     height: 100vh;
     width: 100%;
 }
+//____Nav Bar____//
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it is above other content */
+    border-bottom: 1px solid #ccc; /* Optional: border for visibility */
+}
 
 .navbar-collapse {
+    position: relative;
+    right: 25px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
