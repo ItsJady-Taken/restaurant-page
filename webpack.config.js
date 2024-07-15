@@ -1,18 +1,22 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
+const cleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     mode: 'development',
     devServer: {
       static: './dist',
+      hot: true,
+      open: true,
     },
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
+        filename: '.bundle.[contenthash].js',
         path: path.resolve(__dirname, './dist'),
         clean: true,
     },
     plugins: [
+        new cleanWebpackPlugin(),
         new htmlWebpackPlugin(
             {
                 template: './src/index.html'
@@ -34,5 +38,11 @@ module.exports = {
           type: 'asset/resource',
         }
       ],
+    },
+    optimization: {
+      splitChunks: {
+        chunks: 'all',
+      },
+      runtimeChunk: 'single',
     },
 }

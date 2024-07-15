@@ -15,7 +15,7 @@ const homePage = () => {
         </div>
 
         <div class="fetured-container">
-            <h2><em>Our Specialty</em></h2>
+            <h2><em>Our Specialties</em></h2>
 
             <div class="fetured-1">
                 <div class="image-fetured">

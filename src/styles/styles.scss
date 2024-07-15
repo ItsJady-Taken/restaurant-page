@@ -6,6 +6,25 @@ html, body {
     height: 100vh;
     width: 100%;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); // Adjust the opacity as needed
+    z-index: 1; // Ensure the overlay is on top of the background image
+}
+
+//___________Main Header_____________//
+.header {
+    position: relative;
+    z-index: 2; // Ensure the content is on top of the overlay
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 //____Nav Bar____//
 header{
     position: sticky;
