@@ -30,7 +30,8 @@
 .menu-1 {
     display: grid;
     grid-template-columns: 1fr 250px;
-    padding: 30px;
+    gap: 10px;
+    padding: 20px;
 }
 
 .menu-img {
@@ -44,4 +45,26 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.ingredients > .ingredient-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ingredients > ul {
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+
+.ingredients > ul > li {
+    font-style: italic;
+}
+
+.ingredients > .ing-price {
+    position: relative;
+    top: 20px;
 }

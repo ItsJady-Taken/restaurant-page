@@ -6,7 +6,7 @@ const aboutPage = ()=> {
     about_page.innerHTML = `
          <div class="overlay"> </div>
 
-         <h2 class="header">Menu</h2>
+         <h2 class="header">About Jeepee <i class="fa-solid fa-bars"></i></h2>
     `;
 
     return about_page;
