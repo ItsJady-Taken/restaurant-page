@@ -34,7 +34,7 @@ const menuPage = ()=> {
                         <li>MAYONNAISE</li>
                         <li>HOT SAURCE OR SRIRACHA</li>
                     </ul> 
-                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">1.000.000.00$</em> (Not Include Fries)</p>
+                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">1.000.000.00 $</em> (Not Include Fries)</p>
                 </div>
                 <div class="menu-img">
                     <img alt="Australian Buger" src="${Australian_Burger}">
@@ -56,7 +56,7 @@ const menuPage = ()=> {
                         <li>MUSTARD</li>
                         <li>MAYONNAISE</li>                    
                     </ul> 
-                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">1.000.000.00$</em> (Not Include Fries)</p>
+                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">0.99 $</em> (Include Fries And Drinks)</p>
                 </div>
                 <div class="menu-img">
                     <img alt="Onion Buger" src="${Onion_Burger}">
@@ -79,7 +79,7 @@ const menuPage = ()=> {
                         <li>BURGER BUN</li>
                         <li>PRESERVED VEGETABLE</li>
                     </ul> 
-                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">1.000.000.00$</em> (Not Include Fries)</p>
+                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">Your Whole Wallet $</em> (Include driving licence, debit card, credid card, identification card, ...etc)</p>
                 </div>
                 <div class="menu-img">
                     <img alt="Juicy Lucy Buger" src="${Juicy_Lucy_Burger}">
@@ -99,7 +99,7 @@ const menuPage = ()=> {
                         <li>OLIVES</li>
                         <li>CHEESE (Optional)</li> 
                     </ul> 
-                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">1.000.000.00$</em> (Not Include Fries)</p>
+                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">10.000.00 $</em></p>
                 </div>
                 <div class="menu-img">
                     <img alt="Olive Buger" src="${Olive_Burger}">
@@ -110,16 +110,17 @@ const menuPage = ()=> {
           <section class="section">
             <h3>Bison Burger</h3>
             <div class="menu-1">
-                <div class="ingredients>
+                <div class="ingredients">
                     <p class="ingredient-title">Main Ingredients:</p>
                     <ul>
-                        <li>GROUND BEEF</li>
-                        <li>MAYONNAISE</li>
+                        <li>BISON</li>
                         <li>BURGER BUN</li>
-                        <li>OLIVES</li>
-                        <li>CHEESE (Optional)</li> 
+                        <li>ONION</li>
+                        <li>LETTUCE</li>
+                        <li>TOMATO</li> 
+                        <li>CHEDDAR</li>
                     </ul> 
-                    <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">1.000.000.00$</em> (Not Include Fries)</p>
+                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">PayPal Only $</em></p>
                 </div>
                 <div class="menu-img">
                     <img alt="Bison Buger" src="${Bison_Burger}">
@@ -130,15 +131,26 @@ const menuPage = ()=> {
           <section class="section">
             <h3>Elk Burger</h3>
             <div class="menu-1">
-                <div>
-                    <p>An institution at many pubs, restaurants, and cafés in Australia, Australian burger with the lot first made its appearance in the 1940s, 
-                    when beetroot started to be added to the burger alongside onions, tomatoes, lettuce, and meat.</p>
+               <div class="ingredients">
+                    <p class="ingredient-title">Main Ingredients:</p>
+                    <ul>
+                        <li>ELK</li>
+                        <li>BURGER BUN</li>
+                        <li>LETTUCE</li>
+                        <li>TOMATO</li>
+                        <li>ONION</li> 
+                    </ul> 
+                     <p class="ing-price"><em style="font-weight: lighter; font-size: 30px;">Ask The Manager $</em></p>
                 </div>
                 <div class="menu-img">
                     <img alt="Elk Buger" src="${Elk_Burger}">
                 </div>
             </div>
          </section>
+
+        <div class="footer">
+            <p><span>Sorry Too Lazy To Add Side Dish </span> <a href="https://www.youtube.com/watch?v=5l7IxILYVKU&ab_channel=HRSEdits">So Here A Link To A Funny Cat Video</a></p>
+       </div>
     `;
 
     return menu_page;
